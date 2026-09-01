@@ -1,10 +1,7 @@
 <div align="center">
 
-      ●───────●
-     /         \       C O G R A F Y
-    ●     ◆     ●      live code intelligence for AI agents
-     \         /       graph · resolve · rank · budget
-      ●───────●
+<img width="1920" height="540" alt="cografy_banner_hd" src="https://github.com/user-attachments/assets/8a48ce7a-2ba8-4342-bf66-c6dbc51ffe37" />
+
 
 **A codebase intelligence engine that stays fresh as you type, resolves calls precisely across files, and feeds your AI agent exactly the right context within a token budget — with zero external services.**
 
