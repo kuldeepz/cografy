@@ -267,27 +267,8 @@ would benefit from the ANN step.
 
 ## Architecture
 
-```
-[ Workspace ] --save--> [ Watcher ] --> [ Merkle diff ] --> [ tree-sitter parser ]
-                                                                |  (fallback: heuristic)
-                                                     nodes + imports + call-sites
-                                                                v
-                                   [ SQLite: nodes/edges + FTS5 (BM25) + vectors ]
-                                                                |
-                                          [ cross-file resolver + PageRank ]
-                                              precise calls / handles / extends
-                                                                |
-                    +-----------------------------+-------------+-------------+
-                    |                             |                           |
-             GraphQuery                    HybridSearch                Context budgeter
-       (trace / impact / routes /      (BM25 + vector, RRF          (rank-aware packing
-        repomap / deadcode)             fusion + rank boost)         to a token budget)
-                    \_____________________________|___________________________/
-                                                  v
-                                        [ MCP server / CLI ]
-                                                  v
-                                  GitHub Copilot · Claude · Cursor
-```
+<img width="960" height="900" alt="code_pipeline_flowchart" src="https://github.com/user-attachments/assets/231f78d2-f6fb-40bb-9ae3-72158b5a8981" />
+
 
 ## Programmatic API
 
