@@ -1,12 +1,10 @@
 <div align="center">
 
-```
-   ◍─────◍
-  ╱       ╲      C O G R A F Y
- ◍    ◍    ◍     live code intelligence for AI agents
-  ╲       ╱      graph · resolve · rank · budget
-   ◍─────◍
-```
+      ●───────●
+     /         \       C O G R A F Y
+    ●     ◆     ●      live code intelligence for AI agents
+     \         /       graph · resolve · rank · budget
+      ●───────●
 
 **A codebase intelligence engine that stays fresh as you type, resolves calls precisely across files, and feeds your AI agent exactly the right context within a token budget — with zero external services.**
 
