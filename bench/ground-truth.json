@@ -1,0 +1,16 @@
+{
+  "description": "Ground-truth internal call edges for benchmark fixtures. calleeParent disambiguates same-named methods.",
+  "edges": [
+    { "lang": "typescript", "caller": "describe", "callee": "getName", "calleeParent": "UserService" },
+    { "lang": "typescript", "caller": "label", "callee": "getName", "calleeParent": "ProductService" },
+    { "lang": "typescript", "caller": "getWhoami", "callee": "describe", "calleeParent": "UserService" },
+    { "lang": "typescript", "caller": "pickUser", "callee": "getName", "calleeParent": "UserService" },
+    { "lang": "typescript", "caller": "pickProduct", "callee": "getName", "calleeParent": "ProductService" },
+    { "lang": "python", "caller": "compute", "callee": "add" },
+    { "lang": "go", "caller": "run", "callee": "helper" },
+    { "lang": "go", "caller": "main", "callee": "run" },
+    { "lang": "java", "caller": "compute", "callee": "add", "calleeParent": "Calc" },
+    { "lang": "rust", "caller": "run", "callee": "helper" },
+    { "lang": "rust", "caller": "main", "callee": "run" }
+  ]
+}

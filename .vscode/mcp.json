@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "cografy": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${workspaceFolder}/dist/cli.js", "serve", "${workspaceFolder}"]
+    }
+  }
+}
